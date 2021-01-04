@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="195dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/strokeonly">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+    <ImageView
+        android:id="@+id/iv_homeholder"
+        android:layout_width="131dp"
+        android:layout_height="115dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/alpukat"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/tv_nameholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alpukat"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tv_pricehomeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Rp 35000/kg"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_textviewholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alpukat"
+        android:visibility="invisible"/>
+</androidx.cardview.widget.CardView>

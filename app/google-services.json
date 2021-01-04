@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "294011192853",
+    "firebase_url": "https://kangsayur-99690.firebaseio.com",
+    "project_id": "kangsayur-99690",
+    "storage_bucket": "kangsayur-99690.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294011192853:android:78dfc58216571ff915f01c",
+        "android_client_info": {
+          "package_name": "com.example.kangsayur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294011192853-aiunc824p7hvfhbegl1jj1juoc7hi8sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV-RiUxGBPEL8CgoL-y-ad1jjcgiWvX_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294011192853-aiunc824p7hvfhbegl1jj1juoc7hi8sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
